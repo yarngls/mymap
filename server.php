@@ -1,9 +1,16 @@
 <?php
 
-	//include_once(any thing);
-	$db_host = "127.0.0.1";
+	// ------   Servidor Local Host ----------
+	/*$db_host = "127.0.0.1";
 	$db_user = "root";
 	$db_password = "";
+	$db_name = "credenciais";*/
+
+
+	// ------   Servidor OnLine ----------
+	$db_host = "127.0.0.1";
+	$db_user = "root";
+	$db_password = "b3nl1t3ch18";
 	$db_name = "credenciais";
 
 	$connection = mysqli_connect($db_host,$db_user,$db_password,$db_name);
